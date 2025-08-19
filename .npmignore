@@ -1,0 +1,38 @@
+# Development files
+test/
+*.test.js
+coverage/
+.nyc_output/
+
+# ESLint
+eslint.config.js
+.eslintrc*
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env*
+
+# Build artifacts
+dist/
+build/
+
+# Git
+.git/
+.gitignore
