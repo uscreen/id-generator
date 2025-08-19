@@ -98,6 +98,16 @@ ULID combines the best of UUIDs and timestamp-based IDs:
 - **URL safe** base32 encoding
 - **Case insensitive** and **monotonic** within same millisecond
 
+## Testing
+
+This project maintains 100% test coverage. Run tests with:
+
+```bash
+pnpm test          # Run all tests  
+pnpm test:cov      # Run with coverage report
+pnpm test:ci       # Run in CI mode
+```
+
 ## Requirements
 
 - Node.js 18 or higher
