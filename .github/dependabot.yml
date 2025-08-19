@@ -1,33 +1,33 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: npm
+    directory: /
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "09:00"
-      timezone: "Europe/Berlin"
+      interval: weekly
+      day: monday
+      time: '09:00'
+      timezone: Europe/Berlin
     open-pull-requests-limit: 5
     reviewers:
-      - "spiegel@uscreen.de"
+      - spiegel@uscreen.de
     commit-message:
-      prefix: "deps"
-      include: "scope"
+      prefix: deps
+      include: scope
     groups:
       dev-dependencies:
-        dependency-type: "development"
+        dependency-type: development
         patterns:
-          - "@antfu/eslint-config"
-          - "eslint*"
-          - "c8"
+          - '@antfu/eslint-config'
+          - 'eslint*'
+          - c8
       production-dependencies:
-        dependency-type: "production"
+        dependency-type: production
         patterns:
-          - "ulid"
+          - ulid
 
-  - package-ecosystem: "github-actions"
-    directory: "/.github/workflows"
+  - package-ecosystem: github-actions
+    directory: /.github/workflows
     schedule:
-      interval: "monthly"
+      interval: monthly
     commit-message:
-      prefix: "ci"
+      prefix: ci
