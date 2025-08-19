@@ -1,5 +1,11 @@
 # @uscreen.de/id-generator
 
+[![CI](https://github.com/uscreen/id-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/uscreen/id-generator/actions/workflows/ci.yml)
+[![npm version](https://badge.fury.io/js/@uscreen.de%2Fid-generator.svg)](https://badge.fury.io/js/@uscreen.de%2Fid-generator)
+[![Known Vulnerabilities](https://snyk.io/test/github/uscreen/id-generator/badge.svg)](https://snyk.io/test/github/uscreen/id-generator)
+[![codecov](https://codecov.io/gh/uscreen/id-generator/branch/main/graph/badge.svg)](https://codecov.io/gh/uscreen/id-generator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Generate unique, sortable IDs with optional prefixes using ULID.
 
 ## Features
