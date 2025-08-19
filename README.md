@@ -103,7 +103,7 @@ ULID combines the best of UUIDs and timestamp-based IDs:
 This project maintains 100% test coverage. Run tests with:
 
 ```bash
-pnpm test          # Run all tests  
+pnpm test          # Run all tests
 pnpm test:cov      # Run with coverage report
 pnpm test:ci       # Run in CI mode
 ```
