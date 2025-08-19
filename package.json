@@ -26,7 +26,7 @@
   },
   "scripts": {
     "test": "c8 node --test --test-reporter spec",
-    "test:cov": "c8 --reporter=html --reporter=text node --test",
+    "test:cov": "c8 --reporter=html --reporter=text --reporter=lcov node --test",
     "test:ci": "node --test",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -41,5 +41,11 @@
     "eslint": "^9.10.0",
     "eslint-plugin-format": "^1.0.1",
     "fastest-levenshtein": "^1.0.16"
+  },
+  "c8": {
+    "exclude": [
+      "test.js",
+      "coverage/**"
+    ]
   }
 }
