@@ -41,7 +41,7 @@
     "prepublishOnly": "pnpm lint && pnpm test"
   },
   "dependencies": {
-    "ulid": "^3.0.1"
+    "ulid": "^3.0.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
