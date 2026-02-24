@@ -4,7 +4,8 @@ export default antfu({
   formatters: true,
   ignores: [
     'coverage/**',
-    '*.d.ts'
+    '*.d.ts',
+    'pnpm-workspace.yaml'
   ]
 }, {
   rules: {
