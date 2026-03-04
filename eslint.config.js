@@ -5,7 +5,9 @@ export default antfu({
   ignores: [
     'coverage/**',
     '*.d.ts',
-    'pnpm-workspace.yaml'
+    'pnpm-workspace.yaml',
+    '**/*.md/*.js',
+    'AGENTS.md'
   ]
 }, {
   rules: {
