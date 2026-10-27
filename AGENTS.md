@@ -155,15 +155,15 @@ package.json       Package metadata, scripts, dependencies
 .nvmrc             Node.js version for local dev (24)
 .github/
   workflows/
-    ci.yml         CI pipeline (Node 20/22/24, lint, test, coverage)
+    ci.yml         CI pipeline (Node 22/24/26, lint, test, coverage)
     codeql.yml     GitHub CodeQL security scanning
   dependabot.yml   Automated dependency updates
 ```
 
 ## CI
 
-- Tests run on Node.js 20, 22, and 24
-- Linting runs on Node 20+
+- Tests run on Node.js 22, 24, and 26
+- Linting runs on all matrix versions
 - Coverage (c8) generated on Node 22, uploaded to Codecov
 - Uses Corepack for pnpm version management
 - `pnpm install --frozen-lockfile` in CI (lockfile must be up to date)
