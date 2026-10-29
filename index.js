@@ -6,7 +6,10 @@ import { monotonicFactory } from 'ulid'
 const ulid = monotonicFactory()
 
 export const id = (prefix = '') => {
-  return [prefix, ulid(new Date().valueOf()).toLowerCase()]
+  return [
+    prefix,
+    ulid(new Date().valueOf()).toLowerCase()
+  ]
     .filter(e => e)
     .join('_')
 }
